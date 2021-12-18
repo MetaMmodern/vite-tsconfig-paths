@@ -1,0 +1,9 @@
+@use "@styles/variables.scss" as var;
+
+// the below works, the above does not
+// @use "./styles/variables.scss" as var;
+
+.main {
+  background: var.$black;
+  color: white;
+}
